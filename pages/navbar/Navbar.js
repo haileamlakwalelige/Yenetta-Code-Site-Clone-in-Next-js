@@ -22,11 +22,6 @@ const Navbar = () => {
           Start Learning
         </button>
       </div>
-      <div className='pt-2 pl-[-100px] pr-20'>
-        <button className='rounded-3xl  bg-yellow-500 text-lg font-bold font-serif text-black  h-14 w-[160px]'>
-          Login
-        </button>
-      </div>
     </div>
   );
 };
