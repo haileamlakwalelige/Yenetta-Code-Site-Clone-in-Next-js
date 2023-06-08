@@ -6,7 +6,7 @@ export default function SimpleMessage() {
     const [text, setText] = useState(true);
 
     return (
-        <div className="top-0 sticky w-full">
+        <div className="top-0 sticky w-full hidden md:block">
             {text ? (
                 <div className=" bg-blue-300 flex justify-center items-center px-32 py-2 ">
         <div className="justify-center pl-20 flex">
