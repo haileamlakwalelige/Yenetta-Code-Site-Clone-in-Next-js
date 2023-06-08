@@ -1,19 +1,18 @@
-import About from './page/About';
-import Choose from './page/Choose';
-import Count from './page/Count';
-import Homes from './page/Homes';
-import Courses from './page/Courses';
-import Head from 'next/head'
-import Programs from './page/Programs';
-import Test from './page/Test';
-import Learn from './page/Learn';
-import Student from './page/Student';
-import Subscribe from './page/Subscribe';
-import Footer from './page/Footer';
-import Copy from './page/Copy';
+import About from './home/About';
+import Choose from './home/Choose';
+import Count from './home/Count';
+import Homes from './home/Homes';
+import Courses from './home/Courses';
+import Programs from './home/Programs';
+import Test from './home/Test';
+import Learn from './home/Learn';
+import Student from './home/Student';
+import Subscribe from './home/Subscribe';
+import Footer from './home/Footer';
+import Copy from './home/Copy';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Head from 'next/head'
 
 export default function Home() {
   return (
@@ -21,9 +20,7 @@ export default function Home() {
     <Head>
       <title>Yenetta Code</title>
     </Head>
-    <div>
-
-    </div>
+ 
          <Homes />
          <About />
          <Choose />
