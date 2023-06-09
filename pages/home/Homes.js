@@ -92,7 +92,7 @@ const Homes =()=>{
                 src={black}
                 alt="Yenetta Code"
                 width={400}
-                height={400}  className="-mt-24 overflow-x-hidden z-30 h-[300px] w-[300px] "/>
+                height={400}  className="-mt-24 overflow-x-hidden pt-20 lg:pt-0 z-30 h-[300px] w-[300px] "/>
                 {/* <img src="https://yenettacode.com/wp-content/uploads/2022/05/Yenetta-Code-Home-4.png" alt="Yenettacode.com" /> */}
             </div>
         </div>
