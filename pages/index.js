@@ -16,7 +16,7 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="bg-white  text-black h-[100vh] w-full">
+    <div className="bg-white  text-black h-full w-full">
     <Head>
       <title>Yenetta Code</title>
     </Head>

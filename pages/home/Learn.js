@@ -5,7 +5,7 @@ import girl from '../img/girl.png'
 const Learn =()=>{
     return(
         <div className=" bg-white lg:h-[100vh] py-10 flex justify-center text-black font-serif pt-20 lg:pt-32 ">
-        <div className="bg-[#cbcb2c] grid lg:grid-cols-2 gap-10 mt-32 mb-20 pb-20 h-full lg:h-[40vh] items-center overflow-y-none lg:px-40 overflow-x-hidden">
+        <div className="bg-[#cbcb2c] grid lg:grid-cols-2 gap-10 mt-32 mb-20 pb-20 h-full lg:h-[40vh] items-center lg:px-40 lg:overflow-x-auto overflow-x-hidden">
             <div className='pb-20'>
                 <Image 
                 src={girl}

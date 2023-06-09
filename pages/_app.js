@@ -6,9 +6,11 @@ import Navbar from './navbar/Navbar';
 export default function App({ Component, pageProps }) {
   return(
   <div>
+  <div className="overflow-x-hidden">
   <SimpleMessage />
   <Address />
   <Navbar />
+  </div>
     <Component {...pageProps} />
   </div>
   );
