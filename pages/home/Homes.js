@@ -38,16 +38,16 @@ const Homes =()=>{
       return () => window.removeEventListener("scroll", handleScroll);
     }, [countUpStarted]);
     return(
-        <div className="grid bg-white px-3 font-serif lg:grid-cols-2 gap-10 text-black mr-0">
-            <div className="lg:pl-20 flex flex-col items-center pt-20" data-aos="fade-up">
+        <div className="grid bg-white px-3 font-serif lg:grid-cols-2 gap-10 justify-center items-center text-center text-black mr-0 overflow-x-hidden">
+            <div className="lg:pl-20 flex flex-col justify-center items-center pt-20 overflow-x-hidden" data-aos="fade-up">
                 <h1 className="text-blue-700 font-bold text-lg">Welcome To Yenetta Code</h1>
-                <h1 className=" font-bold text-5xl">Home For<br /> Ethiopian Tech <br /> Leaders</h1>
-                <p className="font-serif mt-6">We deliver learning for a more resilient future. 
+                <h1 className="justify-center font-bold text-5xl text-center">Home For<br /> Ethiopian Tech <br /> Leaders</h1>
+                <p className="font-serif mt-6 text-center justify-center items-center">We deliver learning for a more resilient future. 
                 Our range of programmes are<br /> designed to develop market 
                  aligned skills and offer learners the confidence, <br />
                 capability and opportunity to embrace new careers with greater confidence.</p>
-                <div className="flex justify-between pt-10 pb-6">
-                    <div className="flex font-bold font-serif">
+                <div className="justify-center items-center md:grid grid-cols-3 pt-10 pb-6 overflow-x-hidden">
+                    <div className="flex font-bold font-serif py-4">
                         <div className="pr-3">
                             <FaCheckCircle className='text-[#CBDB2C] mt-5'/>
                         </div>
@@ -56,7 +56,7 @@ const Homes =()=>{
                             <h1>Access</h1>
                         </div>
                     </div>
-                    <div className="flex font-bold font-serif">
+                    <div className="flex font-bold font-serif py-4">
                     <div className="pr-3">
                     <FaCheckCircle className='text-red-500 mt-5' />
                     </div>
@@ -65,7 +65,7 @@ const Homes =()=>{
                             <h1>Certificate</h1>
                         </div>
                     </div>
-                    <div className="flex font-bold font-serif pr-16">
+                    <div className="flex font-bold font-serif pr-16 py-4">
                     <div className="pr-3">
                     <FaCheckCircle className='text-orange-500 mt-5'/>
                     </div>
@@ -79,9 +79,9 @@ const Homes =()=>{
                     <button className="font-serif font-bold h-12 w-48 rounded-3xl bg-[#cbdb2c]">Let's Get Started</button>
                 </div>
             </div>
-            <div>
+            <div className="overflow-x-hidden justify-center items-center flex-col flex">
                 <div className='shadow-2xl w-48 ml-72 rounded-2xl pl-6 mt-24' data-aos="fade-left">
-                    <h1 className=" flex font-bold text-4xl ml-16 text-[#f7b606]">{countUpStarted ? (
+                    <h1 className=" flex font-bold text-4xl ml-16 text-[#f7b606] z-10">{countUpStarted ? (
         <animated.span>{countUpProps.count.interpolate(Math.floor)}</animated.span>
       ) : (
         <span>0</span>
@@ -92,7 +92,7 @@ const Homes =()=>{
                 src={black}
                 alt="Yenetta Code"
                 width={400}
-                height={400}  className="-mt-24 overflow-x-hidden"/>
+                height={400}  className="-mt-24 overflow-x-hidden z-30 h-[300px] w-[300px] "/>
                 {/* <img src="https://yenettacode.com/wp-content/uploads/2022/05/Yenetta-Code-Home-4.png" alt="Yenettacode.com" /> */}
             </div>
         </div>

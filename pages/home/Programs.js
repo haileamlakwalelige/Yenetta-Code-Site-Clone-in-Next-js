@@ -14,8 +14,8 @@ const Programs =()=>{
     AOS.init({duration:500});
 },[]);
     return(
-        <div className="font-serif text-black bg-white pb-10">
-            <div >
+        <div className="font-serif text-center lg:text-start text-black bg-white pb-10 overflow-x-hidden">
+            <div className="flex flex-col items-center text-center">
                 <h1 className="font-bold text-center text-blue-700 py-6">Our Programmes</h1>
                 <h1 className="font-bold text-center text-3xl">Find The Right Program For You</h1>
                 <p className="text-center py-4 pb-12">Join our programmes to open up opportunities and to learn new skills to <br/>
@@ -26,11 +26,11 @@ const Programs =()=>{
                     <Image
                      src="https://yenettacode.com/wp-content/uploads/2022/05/flat-design-geometric-mosaic-pattern_23-2149259884.webp" 
                      alt="Programmes" width={500} height={600} className="w-full"/>
-                     <div>
-                        <h1 className="font-bold text-4xl  py-6 pl-4">Coding Bootcamps</h1>
-                        <p className="mb-6 pl-4">These bootcamps help you learn new on demand skills, get <br/> a job, or change to an exciting new career.</p>
+                     <div  className="flex flex-col items-center justify-center text-center px-4">
+                        <h1 className="font-bold text-4xl  py-6 md:pl-4">Coding Bootcamps</h1>
+                        <p className="mb-6 md:pl-4 text-center px-4">These bootcamps help you learn new on demand skills, get <br/> a job, or change to an exciting new career.</p>
                      </div>
-                     <div className="flex ml-8 mb-4 mt-16 border-2  rounded-full border-black w-44  h-16">
+                     <div className="flex ml-20 justify-center lg:justify-start lg:ml-8 mb-4 mt-16 border-2  rounded-full border-black w-44  h-16">
                         <button className="pl-4">Find Out More </button> 
                         <BsArrowRight className="ml-4 mt-6"/>
                      </div>
@@ -43,7 +43,7 @@ const Programs =()=>{
                         <h1 className="font-bold text-4xl  py-6 pl-4">Kids Coding Camp</h1>
                         <p className="mb-6 pl-4">Our Camp for Kids is a fun programme designed to<br/> children age between 5-19 get started with coding</p>
                      </div>
-                     <div className="flex ml-8 mb-4 mt-16 border-2  rounded-full border-black w-44  h-16">
+                     <div className="flex justify-center  lg:justify-start ml-20 lg:ml-8 mb-4 mt-16 border-2  rounded-full border-black w-44  h-16">
                         <button className="pl-4">Find Out More </button> 
                         <BsArrowRight className="ml-4 mt-6"/>
                      </div>

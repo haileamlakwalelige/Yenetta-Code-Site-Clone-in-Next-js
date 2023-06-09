@@ -4,14 +4,14 @@ import girl from '../img/girl.png'
 
 const Learn =()=>{
     return(
-        <div className=" bg-white lg:h-[100vh] py-10 flex justify-center text-black font-serif pt-32 ">
-        <div className="bg-[#cbcb2c] grid lg:grid-cols-2 gap-10 mt-32 mb-20 pb-20 h-[40vh] px-40">
+        <div className=" bg-white lg:h-[100vh] py-10 flex justify-center text-black font-serif pt-20 lg:pt-32 ">
+        <div className="bg-[#cbcb2c] grid lg:grid-cols-2 gap-10 mt-32 mb-20 pb-20 h-full lg:h-[40vh] items-center overflow-y-none lg:px-40 overflow-x-hidden">
             <div className='pb-20'>
                 <Image 
                 src={girl}
                 alt="Yenetta Code Girl"
                 width={400}
-                height={800} className='-mt-32'/>
+                height={800} className='lg:-mt-32 pt-4'/>
             </div>
             <div className='text-center'>
                 <h1 className='font-bold text-4xl font-serif pt-6'>Learn Tech Skills Online<br/>With Us!</h1>

@@ -5,7 +5,7 @@ import {BsFacebook, BsTwitter, BsInstagram} from 'react-icons/bs';
 
 const Address =()=>{
     return(
-        <div className="flex justify-between  bg-[#CBDB2C] font-serif h-10">
+        <div className="flex justify-between  bg-[#CBDB2C] font-serif lg:h-10">
             <div className=" flex justify-between mt-2 text-black text-md">
             <FaMapPin className='ml-20   mr-8 font-bold'/>
                 <h1>BMS 08A, Dembel City Center, A.A, ET</h1>
